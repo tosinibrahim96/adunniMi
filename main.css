@@ -1,0 +1,44 @@
+/* Base Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:400' );
+body {
+  font-family: 'Lobster Two',  Georgia, 'Times New Roman', Times, serif;;
+  width: 100vw;
+  height: 100vh;
+}
+body .container {
+  position: absolute;
+  top: 45%;
+  max-width: 80%;
+  padding: 1em ;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+body .intro {
+  font-size: 30px;
+  color: #94C9F5;
+}
+
+body .desc {
+  font-size: 17px;
+  letter-spacing: 1.23px;
+  line-height: 3em;
+  text-align: justify;
+  margin-top: 4px;
+  color: #F99323;;
+  padding: 1em;
+}
+
+body .bounce {
+  font-size: 44.5px;
+  margin-top: -18px;
+  color: #3CC157;
+}
+
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+}
